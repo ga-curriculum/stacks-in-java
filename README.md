@@ -15,8 +15,6 @@ By the end of this lesson, you will be able to:
 
 1. Explain the concept of stacks and their LIFO (Last In, First Out) operation.
 2. Understand and implement basic operations on stacks: push, pop, and peek.
-3. Describe queues and their FIFO (First In, First Out) principle.
-4. Implement operations on queues and understand the concept of double-ended queues.
 
 ## Lesson Overview
 
@@ -24,7 +22,7 @@ By the end of this lesson, you will be able to:
     - [Push Operation](#push-operation)
     - [Pop Operation](#pop-operation)
     - [Peek Operation](#peek-operation)
-2. [Exercise: Implement a Stack and Queue](#Exercise-Java-Stack-Implementation)
+2. [Exercise: Implement a Stack](#Exercise-Java-Stack-Implementation)
 3. [Summary and Key Takeaways](#summary-and-key-takeaways)
 
 ## Stacks: Introduction, Implementation, and Operations
