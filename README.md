@@ -1,9 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Understanding Stacks
 
-| Title                | Type    | Duration | Author               |
-|----------------------|---------|----------|----------------------|
-| Understanding Stacks | Lecture | 1:20     | Suresh Melvin Sigera |
-
 ## Introduction
 
 Data structures like stacks and queues are crucial in programming for efficient data management. This lesson will focus
