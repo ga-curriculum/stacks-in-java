@@ -18,7 +18,7 @@ By the end of this lesson, you will be able to:
     - [Push Operation](#push-operation)
     - [Pop Operation](#pop-operation)
     - [Peek Operation](#peek-operation)
-2. [Exercise: Implement a Stack](#Exercise-Java-Stack-Implementation)
+2. [Demo: Implement a Stack](#demo-java-stack-implementation)
 3. [Summary and Key Takeaways](#summary-and-key-takeaways)
 
 ## Stacks: Introduction, Implementation, and Operations
