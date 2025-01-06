@@ -1,0 +1,31 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+stacks = new Template.Microlesson {
+  friendlyName = "Stacks"
+  dirName = "stacks"
+  type = "Content"
+  videoUrl = ""
+}
+
+stackImplementationUsingArray = new Template.Microlesson {
+  friendlyName = "Stack Implementation Using Array"
+  dirName = "stack-implementation-using-array"
+  type = "Content"
+  videoUrl = ""
+}
+
+javasOfficialImplementationOfStack = new Template.Microlesson {
+  friendlyName = "Java's Official Implementation of Stack"
+  dirName = "javas-official-implementation-of-stack"
+  type = "Content"
+  videoUrl = ""
+}
