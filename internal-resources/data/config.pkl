@@ -12,25 +12,13 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Stacks in Java"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "stacks-in-java"
   type = "Lesson"
 }
 
 courses {
-  new {
-    // Do not remove this fallback course!
-    name = "fallback"
-    microlessons {
-      // Add microlessons here, in the order they should be delivered
-      mls.setup
-      mls.stacks
-      mls.stackImplementationUsingArray
-	  mls.javasOfficialImplementationOfStack
-    }
-  }
-  
   new {
     name = "jcd"
     microlessons {
@@ -44,6 +32,18 @@ courses {
 
   new {
     name = "jsc"
+    microlessons {
+      // Add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.stacks
+      mls.stackImplementationUsingArray
+	  mls.javasOfficialImplementationOfStack
+    }
+  }
+  
+  new {
+    // Do not remove this fallback course!
+    name = "fallback"
     microlessons {
       // Add microlessons here, in the order they should be delivered
       mls.setup
