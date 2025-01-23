@@ -69,6 +69,8 @@ Due to these limitations, the theoritical maximum limit can never be reached. An
 - Proper error handling is crucial when working with stacks to avoid runtime issues like overflow or underflow.
 
 ## Independent practice
+(15 min)
+
 Write a program that simulates a simple "Undo" feature using Java's `Stack` class as per the instructions below:
 - Create a `Stack` of strings to hold the actions performed in an application.
 - Implement an `addAction()` method using the `push()` method, to add actions to the stack such as "Action 1", "Action 2", etc.
