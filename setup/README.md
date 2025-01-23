@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Java Arrays and ArrayList</span>
+  <span class="headline">Stacks in Java</span>
   <span class="subhead">Setup</span>
 </h1>
 

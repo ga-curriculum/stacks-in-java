@@ -6,7 +6,7 @@
 **Learning objective:** By the end of this lesson, you'll be able to use Java's in-built `Stack` class in your programs whenever you need to implement a stack-based algorithm.
 
 ## The `Stack` class
-The `Stack` class represents a last-in-first-out (LIFO) stack of objects. A new `Stack` object is declared using the syntax:
+The `Stack` class represents a last-in-first-out (LIFO) stack of objects. Unlike manually implemented stacks using arrays, the `Stack` class dynamically grows its capacity as needed. A new `Stack` object is declared using the syntax:
 
 `Stack<E> stack = new Stack<>()`
 
@@ -61,3 +61,16 @@ The theoritical maximum size of a Java `Stack` (in terms of count) can reach up 
 - **Individual object size**: Larger objects consume more memory, reducing the total possible number of items.
 
 Due to these limitations, the theoritical maximum limit can never be reached. And, when the JVM cannot dynamically allocate enough memory in heap for a growing stack, it throws an `OutOfMemoryError`.
+
+## Final reflections
+
+- We can use `Array` or `ArrayList` for implementing fixed size stacks.
+- We can utilize Java's built-in `Stack` class, when our stack size needs to be dynamic. 
+- Proper error handling is crucial when working with stacks to avoid runtime issues like overflow or underflow.
+
+## Independent practice
+Write a program that simulates a simple "Undo" feature using Java's `Stack` class as per the instructions below:
+- Create a `Stack` of strings to hold the actions performed in an application.
+- Implement an `addAction()` method using the `push()` method, to add actions to the stack such as "Action 1", "Action 2", etc.
+- Implement an `undoAction()` method using `pop()` method, that removes the most recent action from the stack.
+- Display the stack after each operation to show the remaining actions.
